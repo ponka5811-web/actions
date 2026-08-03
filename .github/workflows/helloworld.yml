@@ -23,7 +23,7 @@ jobs:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               PR_URL: ${{ github.event.pull_request.html_url }}
           - name: Checking for file
-            run: ./.github/scripts/checkers.sh
+            run: H:\actions\myapp\.github\scripts\checkers.sh
             env:
-              FILE: ./src/components/buttons.js
+              FILE: H:\actions\myapp\src\components\buttons.js
     
