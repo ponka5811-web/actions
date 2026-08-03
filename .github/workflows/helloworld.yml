@@ -27,7 +27,7 @@ jobs:
             with:
               fetch-depth: 0
           - name: Checking for file
-            run: ./github/scripts/checkers.sh
+            run: ./.github/scripts/checkers.sh
             env:
               FILE: ./src/components/buttons.js
     
